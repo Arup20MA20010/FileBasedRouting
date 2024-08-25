@@ -1,0 +1,20 @@
+{
+  "name": "express_example",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "dependencies": {
+    "node-file-router": "workspace:../../dist",
+    "express": "4.19.2"
+  },
+  "devDependencies": {
+    "ts-node": "10.9.1",
+    "typescript": "5.0.4",
+    "@types/node": "20.1.4",
+    "@types/express": "4.17.17"
+  }
+}

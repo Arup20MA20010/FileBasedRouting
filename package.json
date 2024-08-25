@@ -1,0 +1,29 @@
+{
+  "name": "file_based_router",
+  "version": "1.0.0",
+  "scripts": {
+    "dev:sandbox": "tsnd examples/express/src/server.ts",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "lint": "eslint src tests"
+  },
+  "devDependencies": {
+    "@types/node": "20.1.4",
+    "@typescript-eslint/eslint-plugin": "6.2.0",
+    "@typescript-eslint/parser": "6.2.0",
+    "@vitest/coverage-c8": "0.31.0",
+    "cross-env": "7.0.3",
+    "eslint": "8.46.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-prettier": "8.9.0",
+    "eslint-plugin-prettier": "5.0.0",
+    "prettier": "3.0.0",
+    "ts-node-dev": "2.0.0",
+    "typescript": "5.0.4",
+    "vitest": "0.31.0"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "express": "^4.19.2"
+  }
+}
